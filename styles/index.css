@@ -72,15 +72,14 @@ img{
     justify-items: center;
     align-content: center;
     justify-content: center;
-    background-color: #fff;
+    /* background-color: #fff; */
     /* margin: 0.5rem; */
     margin: 0.5rem;
 }
 
 .logoBox img{
-    width: 45%;
+    width: 20%;
     padding: 0.25rem;
-
 }
 
 .graf{
@@ -93,15 +92,20 @@ img{
     align-self: center;
     justify-self: center;
     font-size: 1.5rem;
-    background-color: #ECD1C1;
     padding: 1rem;
+    background-color: #731B07;
+    color: #fff;
 }
 
+.graf p a:link{
+    color: #ECD1C1;
+}
 .graf p a:hover{
-    background-color: #fff;
+    background-color: #ECD1C1;
+    color:#731B07;
 }
 .graf p a:focus{
-    background-color: #731B07;
+    color: #000;
 }
 
 .background img{
@@ -110,9 +114,17 @@ img{
     margin: 0.5rem;
 }
 
-#mullinax{
-    width: 90%;
+#agency{
+    background-color: #fff;
 }
+
+#alligator{
+    background-color: #fff;
+}
+
+/* #mullinax{
+    width: 90%;
+} */
 
 #news{
     flex-direction: row-reverse;
@@ -144,6 +156,12 @@ color: #fff;
 #additional a:focus{
     background-color: #ECD1C1;
     color:#731B07;
+}
+
+.divider{
+    font-family: "Lexend Peta", serif;
+    background-color: #ECD1C1;
+    font-weight: 600;
 }
 
 /* News */
@@ -204,7 +222,11 @@ article{
     color: #ECD1C1;
 }
 
+/* copy samples */
 
+#copyhead{
+    font-size: 4rem;
+}
 
 
 @media(max-width: 1000px){
